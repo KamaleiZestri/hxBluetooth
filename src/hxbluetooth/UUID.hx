@@ -4,9 +4,7 @@ import cpp.Int64;
 import hxbluetooth.GUIDStruct;
 
 @:headerCode('
-    #ifdef NEKO_WINDOWS
     #include <guiddef.h>
-    #endif
 ')
 class UUID
 {
