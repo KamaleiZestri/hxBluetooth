@@ -1,0 +1,12 @@
+{
+  "name": "hxBluetooth",
+  "url": "https://github.com/KamaleiZestri/hxBluetooth",
+  "license": "MIT",
+  "tags": ["bluetooth"],
+  "description": "CPP Bluetooth server ",
+  "version": "0.0.1",
+  "classPath": "src",
+  "releasenote": "Initial",
+  "contributors": ["KamaleiZestri"],
+  "dependencies": {}
+}
