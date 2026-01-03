@@ -4,15 +4,14 @@
 #include <iostream>
 #include <sstream>
 
-#ifdef NEKO_WINDOWS
-    #include <winsock2.h>
-    #include <ws2bth.h>
-    #include <BluetoothAPIs.h>
+
+#include <winsock2.h>
+#include <ws2bth.h>
+#include <BluetoothAPIs.h>
 
 
-    #pragma comment(lib, "Bthprops.lib")
-    #pragma comment(lib, "Ws2_32.lib")
-#endif
+#pragma comment(lib, "Bthprops.lib")
+#pragma comment(lib, "Ws2_32.lib")
 
 //TODO https://github.com/HaxeFoundation/hxcpp/blob/master/src/hx/libs/std/Socket.cpp
 // TODO void _hx_std_socket_send_char( Dynamic o, int c )
